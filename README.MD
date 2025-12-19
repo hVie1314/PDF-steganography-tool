@@ -321,25 +321,25 @@ Thông tin dự án:
 
 ## 📄 FILE CHÍNH:
 
-1. pdf_stego.py - Module core chứa class PDFSteganography
-   • hide_file() - Ẩn file vào PDF
-   • extract_file() - Trích xuất file từ PDF
-   • check_hidden_data() - Kiểm tra dữ liệu ẩn
-   • get_hidden_file_info() - Lấy thông tin file ẩn
-   • validate_pdf() - Kiểm tra tính hợp lệ của PDF
-   • validate_file_format() - Kiểm tra định dạng file hỗ trợ
+1. pdf_stego.py - Module core chứa class PDFSteganography  
+   • hide_file() - Ẩn file vào PDF  
+   • extract_file() - Trích xuất file từ PDF  
+   • check_hidden_data() - Kiểm tra dữ liệu ẩn  
+   • get_hidden_file_info() - Lấy thông tin file ẩn  
+   • validate_pdf() - Kiểm tra tính hợp lệ của PDF  
+   • validate_file_format() - Kiểm tra định dạng file hỗ trợ  
 
-2. cli.py - Command Line Interface
-   • Sử dụng argparse để xử lý tham số dòng lệnh
-   • 3 sub-commands: hide, extract, check
-   • Hiển thị output có màu và format đẹp
+2. cli.py - Command Line Interface  
+   • Sử dụng argparse để xử lý tham số dòng lệnh  
+   • 3 sub-commands: hide, extract, check  
+   • Hiển thị output có màu và format đẹp  
 
-3. gui.py - Graphical User Interface
-   • Framework: Tkinter (built-in Python)
-   • 3 tabs: Ẩn File, Trích xuất File, Kiểm tra File
-   • File browsers với validation
-   • Log output realtime
-   • Status bar và error dialogs
+3. gui.py - Graphical User Interface  
+   • Framework: Tkinter (built-in Python)  
+   • 3 tabs: Ẩn File, Trích xuất File, Kiểm tra File  
+   • File browsers với validation  
+   • Log output realtime  
+   • Status bar và error dialogs  
 
 ## KIỂM TRA HOẠT ĐỘNG:
 🧪 CÁCH 1: Chạy demo tự động (Khuyến nghị)  
